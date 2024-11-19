@@ -1,0 +1,62 @@
+/* Create.css - Minimalist Flat Design */
+.create-container {
+    background-color: #f5f5f5;
+    padding: 60px 0;
+}
+
+.card-custom {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+}
+
+.card-custom .card-body {
+    padding: 40px;
+}
+
+.card-custom h2 {
+    color: #4a4a4a;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #ddd;
+    background-color: transparent;
+    border-radius: 0;
+    padding: 10px 5px;
+    transition: border-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control:focus {
+    border-color: #8ecae6;
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-custom {
+    background-color: #8ecae6;
+    border: none;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 10px 0;
+    border-radius: 50px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-custom:hover {
+    background-color: #219ebc;
+    box-shadow: 0 4px 10px rgba(33, 158, 188, 0.4);
+}
